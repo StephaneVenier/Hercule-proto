@@ -3,35 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Hercule Project · The 4</title>
-  <meta name="description" content="The Four — 4 min + 4 km">
+  <title>Hercule Project · The Four</title>
+  <meta name="description" content="The Four — 4 x 4 min (burpees, fentes alternées, mountain climbers, shoulder taps) + 4 km de course.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-<nav class="nav">
-  <div class="row">
-    <div class="brand">Hercule <span class="accent">Project</span></div>
-    <div class="links">
-      <a class="btn" href="index.html">Accueil</a>
-      <a class="btn" href="concept.html">Concept</a>
-      <a class="btn" href="niveaux.html">Niveaux</a>
-      <a class="btn" href="participer.html">Participer</a>
-      <a class="btn" href="faq.html">FAQ</a>
-      <a class="btn primary" href="participer.html">S'inscrire – 9,90 €</a>
+  <!-- NAV (identique aux autres pages) -->
+  <nav class="nav">
+    <div class="row">
+      <div class="brand">Hercule <span class="accent">Project</span></div>
+      <div class="links">
+        <a class="btn" href="index.html">Accueil</a>
+        <a class="btn" href="concept.html">Concept</a>
+        <a class="btn" href="niveaux.html">Niveaux</a>
+        <a class="btn" href="participer.html">Participer</a>
+        <a class="btn" href="faq.html">FAQ</a>
+        <a class="btn primary" href="participer.html">S'inscrire – 9,90 €</a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <main class="wrap">
     <section class="section">
-      <h2>⚔️ Guerrier — The 4</h2>
-      <p class="lead">Page squelette : à remplir avec exercices et détails.</p>
+      <h2>⚔️ Guerrier — The Four</h2>
+      <p class="lead">Objectif : <strong>4 × 4 minutes</strong> d'effort (AMRAP) + <strong>4 km</strong> de course.</p>
+
+      <div class="grid cols-2" style="margin-top:12px">
+        <!-- 1) Burpees -->
+        <div class="card">
+          <h4>Burpees — 4 min</h4>
+          <a href="https://gifer.com/en/8Q6F" target="_blank" rel="noopener">
+            <img src="https://gifer.com/en/8Q6F" alt="Burpees" style="width:220px;max-width:100%;border-radius:12px;border:1px solid #3f3f46;background:#0d0d11">
+          </a>
+          <p class="blurb">Descente en planche, poitrine proche du sol, retour explosif avec saut et mains au-dessus de la tête.</p>
+          <div class="chips"><span class="chip">⏱️ 4 min</span><span class="chip">AMRAP</span></div>
+        </div>
+
+        <!-- 2) Fentes alternées -->
+        <div class="card">
+          <h4>Fentes alternées — 4 min</h4>
+          <a href="https://gifer.com/en/7d2m" target="_blank" rel="noopener">
+            <img src="https://gifer.com/en/7d2m" alt="Fentes alternées" style="width:220px;max-width:100%;border-radius:12px;border:1px solid #3f3f46;background:#0d0d11">
+          </a>
+          <p class="blurb">Genou arrière proche du sol, buste droit, alternance jambe gauche / jambe droite.</p>
+          <div class="chips"><span class="chip">⏱️ 4 min</span><span class="chip">AMRAP</span></div>
+        </div>
+
+        <!-- 3) Mountain climbers -->
+        <div class="card">
+          <h4>Mountain climbers — 4 min</h4>
+          <a href="https://gifer.com/en/FJsh" target="_blank" rel="noopener">
+            <img src="https://gifer.com/en/FJsh" alt="Mountain climbers" style="width:220px;max-width:100%;border-radius:12px;border:1px solid #3f3f46;background:#0d0d11">
+          </a>
+          <p class="blurb">Position planche, amener les genoux sous la poitrine en alternance, cadence régulière.</p>
+          <div class="chips"><span class="chip">⏱️ 4 min</span><span class="chip">AMRAP</span></div>
+        </div>
+
+        <!-- 4) Gainage dynamique (touches épaules) -->
+        <div class="card">
+          <h4>Gainage dynamique (touches épaules) — 4 min</h4>
+          <!-- GIF de planche utilisé comme proxy si shoulder taps introuvable sur GIFER -->
+          <a href="https://gifer.com/en/A9DY" target="_blank" rel="noopener">
+            <img src="https://gifer.com/en/A9DY" alt="Plank / shoulder taps (proxy)" style="width:220px;max-width:100%;border-radius:12px;border:1px solid #3f3f46;background:#0d0d11">
+          </a>
+          <p class="blurb">Position planche sur mains, alterne la main droite vers l’épaule gauche puis inverse, bassin stable.</p>
+          <div class="chips"><span class="chip">⏱️ 4 min</span><span class="chip">AMRAP</span></div>
+          <p class="meta">Remarque : GIF de planche pris en remplacement en attendant un shoulder-taps plus explicite.</p>
+        </div>
+      </div>
+
+      <div class="section" style="margin-top:16px">
+        <h3>🏃‍♂️ Course — 4 km</h3>
+        <p class="blurb">Valide ta course en exportant un <strong>GPX</strong> (Strava, Garmin, etc.).</p>
+      </div>
+
       <div class="cta-row">
-        <a class="btn" href="niveaux.html">Retour aux niveaux</a>
+        <a class="btn primary" href="participer.html">Je tente The Four</a>
+        <a class="btn" href="niveaux.html">Revenir aux niveaux</a>
       </div>
     </section>
   </main>
+
   <footer>© <span id="y"></span> Hercule Project · Univers RPG partagé avec A-Quest.</footer>
   <script src="script.js"></script>
 </body>
